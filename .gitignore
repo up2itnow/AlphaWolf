@@ -1,0 +1,29 @@
+# .gitignore for AlphaWolf
+
+# Environment Variables (Secrets)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Agent Memory (Local)
+memory/logs/
+memory/*.json
+!memory/embed_memory.py
